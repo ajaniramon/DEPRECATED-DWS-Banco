@@ -18,6 +18,9 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
        //lol
+        /**
+         * comentario de vicente
+         */
         EntidadBancariaDAO entidadBancariaDAO = new EntidadBancariaDAOImplJDBC();
         EntidadBancaria entidadBancaria = new EntidadBancaria("Bonkia", 011, new Date(), "Calle Verdadera 3", "456468a");
         EntidadBancaria entidadBancaria2 = new EntidadBancaria("DeustcheBank", 022, new Date(), "Calle Deuts", "9999999");
