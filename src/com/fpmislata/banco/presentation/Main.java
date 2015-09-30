@@ -16,10 +16,6 @@ import java.util.List;
  * @author alumno
  */
 public class Main {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
        //lol
         EntidadBancariaDAO entidadBancariaDAO = new EntidadBancariaDAOImplJDBC();
