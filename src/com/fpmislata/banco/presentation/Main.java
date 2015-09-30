@@ -21,6 +21,7 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+       //lel ramon
        //lel vicente
         EntidadBancariaDAO entidadBancariaDAO = new EntidadBancariaDAOImplJDBC();
         EntidadBancaria entidadBancaria = new EntidadBancaria("Bonkia", 011, new Date(), "Calle Verdadera 3", "456468a");
