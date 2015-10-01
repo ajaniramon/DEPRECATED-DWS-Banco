@@ -6,8 +6,8 @@
 package com.fpmislata.banco.presentation;
 
 import com.fpmislata.banco.business.domain.EntidadBancaria;
-import com.fpmislata.banco.persistence.EntidadBancariaDAO;
-import com.fpmislata.banco.persistence.impl.jdbc.EntidadBancariaDAOImplJDBC;
+import com.fpmislata.banco.persistence.dao.EntidadBancariaDAO;
+import com.fpmislata.banco.persistence.dao.impl.jdbc.EntidadBancariaDAOImplJDBC;
 import java.util.Date;
 import java.util.List;
 
