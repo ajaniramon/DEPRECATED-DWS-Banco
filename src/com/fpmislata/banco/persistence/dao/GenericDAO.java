@@ -18,5 +18,5 @@ public interface GenericDAO<T> {
     T update(T t);
     boolean delete(int id);
     List<T> findAll();
-    List<T> findByNombre(String nombre);
+    
 }
