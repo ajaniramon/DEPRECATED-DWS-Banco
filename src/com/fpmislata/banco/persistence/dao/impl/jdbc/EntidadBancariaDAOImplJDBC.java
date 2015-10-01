@@ -42,7 +42,7 @@ public class EntidadBancariaDAOImplJDBC implements EntidadBancariaDAO {
 
             resultSet = preparedStatement.executeQuery();
             if (resultSet.first()) {
-                entidadBancaria = new EntidadBancaria(resultSet.getString("nombre"), resultSet.getInt("codigoEntidad"), resultSet.getDate("fechaCreacion"), resultSet.getString("direccion"), resultSet.getString("cif"));
+                entidadBancaria = new EntidadBancaria(resultSet.getInt("idEntidadBancaria"),resultSet.getString("nombre"), resultSet.getInt("codigoEntidad"), resultSet.getDate("fechaCreacion"), resultSet.getString("direccion"), resultSet.getString("cif"));
 
             } else {
                 entidadBancaria = null;
